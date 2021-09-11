@@ -1,0 +1,22 @@
+div{
+    text-align: center;
+     background-color:white;
+      margin-top: 200px;
+      margin-right:400px; 
+      margin-left: 400px;
+      border-radius: 10%;
+      padding: 20px;
+      -moz-box-shadow:0 0 3px rgb(23, 21, 163) ;
+      -webkit-box-shadow: 0 0 3px rgb(23, 21, 163) ;
+      box-shadow: 0 0 3px rgb(23, 21, 163) ;
+
+}
+body{
+    background: url(./flower.jpg);
+    opacity: 0.8;
+}
+#click{
+    background-color: teal;
+    border-radius: 15%;
+    padding: 15px;
+}
