@@ -10,23 +10,34 @@
 <body>
     
     <div>
-    <form id="survey" action="" method="">
+    <form id="survey" name="login"  onsubmit=" formValidation()" >
         <label>Name</label>
-        <input type="text" placeholder="Enter your name"><br><br>
+        <input type="text" placeholder="Enter your name" name="firstid"><br><br>
         <label>Email</label>
-        <input type="email" placeholder="Enter your email"><br><br>
+        <input type="email" placeholder="Enter your email" name="com"><br><br>
         <label>Telephone</label>
-        <input type="telephone number" placeholder="Enter your number"><br><br>
+        <input type="telephone number" placeholder="Enter your number" name="tele" ><br><br>
+        
         <label>Age</label>
         <input type="number" min="18" max="35" placeholder="Age"><br><br>
+        
         <label>Gender</label>
         <input type="radio" name="gender" value="female">Female
         <input type="radio" name="gender" value="female">Male<br><br>
+        
         <label>Nationality</label>
-        <input type="text"  placeholder="Ugandan"><br><br>
-        <button id="click" id>Log in</button>
+    <select name='nation'>
+        <option selected='' value="Default" > Select Nationality</option>
+        <option value="uganda">Uganda</option>
+        <option value="kenya">Kenya</option>
+        <option value="tanzania">Tanzania</option>
+    </select><br><br>
+    
+        
+        <button id="click" >Log in</button>
         
             </form>
           </div>
+          <script src="./form.js"></script>
 </body>
 </html>
